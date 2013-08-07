@@ -83,7 +83,7 @@ unless ( $session{CurrentUser}->HasRight( Object => RT->System, Right => 'ShowSc
 my (@actions);
 
 my $system_conditions = RT::ScripConditions->new($session{'CurrentUser'});
-$system_conditions->UnLimit;
+$system_conditions->Limit( FIELD => 'Creator', VALUE => RT->SystemUser->id );
 
 my $conditions = RT::ScripConditions->new($session{'CurrentUser'});
 $conditions->Limit( FIELD => 'Creator', VALUE => RT->SystemUser->id, OPERATOR => '!=' );
