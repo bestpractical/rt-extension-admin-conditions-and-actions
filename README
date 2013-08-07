@@ -15,15 +15,30 @@ INSTALLATION
         or add "RT::Extension::AdminConditionsAndActions" to your existing
         @Plugins line.
 
+        You can customize Condition/Action list format by config
+        %AdminSearchResultFormat, e.g.
+
+            Set(%AdminSearchResultFormat,
+                ...
+                Conditions =>
+                    q{'<a href="__WebPath__/Admin/Conditions/Modify.html?&id=__id__">__id__</a>/TITLE:#'}
+                    .q{,'<a href="__WebPath__/Admin/Conditions/Modify.html?id=__id__">__Name__</a>/TITLE:Name'}
+                    .q{,'__Description__','__UsedBy__},
+                Actions =>
+                    q{'<a href="__WebPath__/Admin/Conditions/Modify.html?&id=__id__">__id__</a>/TITLE:#'}
+                    .q{,'<a href="__WebPath__/Admin/Conditions/Modify.html?id=__id__">__Name__</a>/TITLE:Name'}
+                    .q{,'__Description__','__UsedBy__},
+            );
+
     Clear your mason cache
             rm -rf /opt/rt4/var/mason_data/obj
 
     Restart your webserver
 
 AUTHOR
+    sunnavy <sunnavy@bestpractical.com>
 
     Jim Brandt <jbrandt@bestpractical.com>
-    sunnavy <sunnavy@bestpractical.com>
 
 LICENSE AND COPYRIGHT
     Copyright 2013 Best Practical Solutions, LLC.

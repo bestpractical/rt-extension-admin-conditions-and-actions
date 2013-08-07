@@ -112,8 +112,9 @@ You can customize Condition/Action list format by config C<%AdminSearchResultFor
 
 =head1 AUTHOR
 
-Jim Brandt <jbrandt@bestpractical.com>
 sunnavy <sunnavy@bestpractical.com>
+
+Jim Brandt <jbrandt@bestpractical.com>
 
 =head1 LICENSE AND COPYRIGHT
 
