@@ -49,7 +49,9 @@
 
 return unless $session{'CurrentUser'}->HasRight( Object => RT->System, Right => 'ModifyScrips' );
 
-my $admin_global = Menu()->child('admin')->child('global');
+my $admin = Menu->child('admin') || Menu->child('tools')->child('config');
+my $admin_global = $admin->child('global');
+
 my $conditions   = $admin_global->child(
     conditions  => title => loc('Conditions'),
     description => loc('Edit system conditions'),
