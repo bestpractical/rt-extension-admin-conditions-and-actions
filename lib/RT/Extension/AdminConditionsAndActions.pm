@@ -72,6 +72,11 @@ RT-Extension-AdminConditionsAndActions - Admin Conditions And Actions
 
 A web UI for managing RT conditions and actions.
 
+=head1 RT VERSIONS
+
+This version of this extension is intended to work with the following versions
+of RT: 4.0, 4.2
+
 =head1 INSTALLATION
 
 =over
