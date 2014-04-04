@@ -3,7 +3,7 @@ use warnings;
 
 package RT::Extension::AdminConditionsAndActions;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use RT::ScripCondition;
 no warnings 'redefine';
