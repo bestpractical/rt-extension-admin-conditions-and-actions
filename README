@@ -32,8 +32,8 @@ INSTALLATION
                     .q{,'<a href="__WebPath__/Admin/Conditions/Modify.html?id=__id__">__Name__</a>/TITLE:Name'}
                     .q{,'__Description__','__UsedBy__},
                 Actions =>
-                    q{'<a href="__WebPath__/Admin/Conditions/Modify.html?&id=__id__">__id__</a>/TITLE:#'}
-                    .q{,'<a href="__WebPath__/Admin/Conditions/Modify.html?id=__id__">__Name__</a>/TITLE:Name'}
+                    q{'<a href="__WebPath__/Admin/Actions/Modify.html?&id=__id__">__id__</a>/TITLE:#'}
+                    .q{,'<a href="__WebPath__/Admin/Actions/Modify.html?id=__id__">__Name__</a>/TITLE:Name'}
                     .q{,'__Description__','__UsedBy__},
             );
 
