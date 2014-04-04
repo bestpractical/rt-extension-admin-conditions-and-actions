@@ -290,13 +290,21 @@ ADDITIONAL INFORMATION
     distribution and on the "Best Practical website"
     <http://docs.bestpractical.com>.
 
+BUGS
+    All bugs should be reported via email to
+    bug-RT-Extension-AdminConditionsAndActions@rt.cpan.org
+    <mailto:bug-RT-Extension-AdminConditionsAndActions@rt.cpan.org> or via
+    the web at rt.cpan.org
+    <http://rt.cpan.org/Public/Dist/Display.html?Name=RT-Extension-AdminCond
+    itionsAndActions>.
+
 AUTHOR
     sunnavy <sunnavy@bestpractical.com>
 
     Jim Brandt <jbrandt@bestpractical.com>
 
 LICENSE AND COPYRIGHT
-    Copyright 2013 Best Practical Solutions, LLC.
+    Copyright 2013,2014 Best Practical Solutions, LLC.
 
     This is free software, licensed under:
 

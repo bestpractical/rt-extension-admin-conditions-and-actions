@@ -373,6 +373,13 @@ the methods available from ticket and transaction objects in your RT
 distribution and on the
 L<"Best Practical website"|http://docs.bestpractical.com>.
 
+=head1 BUGS
+
+All bugs should be reported via email to
+L<bug-RT-Extension-AdminConditionsAndActions@rt.cpan.org|mailto:bug-RT-Extension-AdminConditionsAndActions@rt.cpan.org>
+or via the web at
+L<rt.cpan.org|http://rt.cpan.org/Public/Dist/Display.html?Name=RT-Extension-AdminConditionsAndActions>.
+
 =head1 AUTHOR
 
 sunnavy <sunnavy@bestpractical.com>
@@ -381,7 +388,7 @@ Jim Brandt <jbrandt@bestpractical.com>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2013 Best Practical Solutions, LLC.
+Copyright 2013,2014 Best Practical Solutions, LLC.
 
 This is free software, licensed under:
 
