@@ -1,15 +1,15 @@
 ---
-abstract: 'RT Extension-AdminConditionsAndActions Extension'
+abstract: 'RT-Extension-AdminConditionsAndActions Extension'
 author:
-  - 'sunnavy <sunnavy@bestpractical.com>'
+  - 'Best Practical Solutions, LLC <modules@bestpractical.com>'
 build_requires:
-  ExtUtils::MakeMaker: 6.36
+  ExtUtils::MakeMaker: 6.59
 configure_requires:
-  ExtUtils::MakeMaker: 6.36
+  ExtUtils::MakeMaker: 6.59
 distribution_type: module
 dynamic_config: 1
-generated_by: 'Module::Install version 1.06'
-license: gplv2
+generated_by: 'Module::Install version 1.12'
+license: gpl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
@@ -18,6 +18,11 @@ no_index:
   directory:
     - html
     - inc
+requires:
+  perl: 5.8.3
 resources:
   license: http://opensource.org/licenses/gpl-license.php
-version: 0.02
+  repository: https://github.com/bestpractical/rt-extension-adminconditionsandactions
+version: '1.00'
+x_module_install_rtx_version: '0.36'
+x_requires_rt: 4.0.0

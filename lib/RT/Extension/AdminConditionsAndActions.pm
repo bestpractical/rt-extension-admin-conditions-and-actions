@@ -3,7 +3,7 @@ use warnings;
 
 package RT::Extension::AdminConditionsAndActions;
 
-our $VERSION = '0.02';
+our $VERSION = '1.00';
 
 use RT::ScripCondition;
 no warnings 'redefine';
@@ -74,8 +74,7 @@ A web UI for managing RT conditions and actions.
 
 =head1 RT VERSIONS
 
-This version of this extension is intended to work with the following versions
-of RT: 4.0, 4.2
+This extension is compatible with RT 4.0 and RT 4.2.
 
 =head1 INSTALLATION
 
@@ -373,23 +372,26 @@ the methods available from ticket and transaction objects in your RT
 distribution and on the
 L<"Best Practical website"|http://docs.bestpractical.com>.
 
+=head1 AUTHOR
+
+Best Practical Solutions, LLC E<lt>modules@bestpractical.comE<gt>
+
 =head1 BUGS
 
 All bugs should be reported via email to
-L<bug-RT-Extension-AdminConditionsAndActions@rt.cpan.org|mailto:bug-RT-Extension-AdminConditionsAndActions@rt.cpan.org>
+
+    L<bug-RT-Extension-AdminConditionsAndActions@rt.cpan.org|mailto:bug-RT-Extension-AdminConditionsAndActions@rt.cpan.org>
+
 or via the web at
-L<rt.cpan.org|http://rt.cpan.org/Public/Dist/Display.html?Name=RT-Extension-AdminConditionsAndActions>.
 
-=head1 AUTHOR
-
-sunnavy <sunnavy@bestpractical.com>
-
-Jim Brandt <jbrandt@bestpractical.com>
+    L<rt.cpan.org|http://rt.cpan.org/Public/Dist/Display.html?Name=RT-Extension-AdminConditionsAndActions>.
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2013,2014 Best Practical Solutions, LLC.
+This software is Copyright (c) 2014 by Best Practical Solutions
 
 This is free software, licensed under:
 
   The GNU General Public License, Version 2, June 1991
+
+=cut
