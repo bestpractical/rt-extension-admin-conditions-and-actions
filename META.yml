@@ -18,6 +18,9 @@ no_index:
   directory:
     - html
     - inc
+  package:
+    - RT::ScripCondition
+    - RT::ScripAction
 requires:
   perl: 5.8.3
 resources:
