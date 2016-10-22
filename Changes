@@ -1,5 +1,8 @@
 Revision history for RT-Extension-AdminConditionsAndActions
 
+1.02 2016-10-21
+ - Update documentation
+
 1.01 2014-12-18
  - Add no_index for core RT packages
 

@@ -3,7 +3,7 @@ use warnings;
 
 package RT::Extension::AdminConditionsAndActions;
 
-our $VERSION = '1.01';
+our $VERSION = '1.02';
 
 use RT::ScripCondition;
 no warnings 'redefine';
@@ -74,7 +74,7 @@ A web UI for managing RT conditions and actions.
 
 =head1 RT VERSIONS
 
-This extension is compatible with RT 4.0 and RT 4.2.
+This extension is compatible with RT 4.0, 4.2 and 4.4.
 
 =head1 INSTALLATION
 
