@@ -49,7 +49,7 @@
 
 return unless $session{'CurrentUser'}->HasRight( Object => RT->System, Right => 'ModifyScrips' );
 
-my $admin = Menu->child('admin') || Menu->child('tools')->child('config');
+my $admin = Menu->child('admin') || Menu->child('rtkids')->child('admin') || Menu->child('tools')->child('config');
 my $admin_global = $admin->child('global');
 
 my $conditions   = $admin_global->child(
