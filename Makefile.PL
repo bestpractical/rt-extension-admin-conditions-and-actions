@@ -9,5 +9,4 @@ rt_too_new '4.4.2';
 
 no_index( package => 'RT::ScripCondition', 'RT::ScripAction' );
 
-sign;
 WriteAll;
